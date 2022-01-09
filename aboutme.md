@@ -8,7 +8,8 @@ My name is Olga and I am a **Cyber Security Engineer** from Portugal.
 
 Since I had my first contact with cyber security, during a MSc course called *Criptography and Communications Security*, I knew this was the field I wanted to work on.
 
-Wanting to learn more, during my dissertation I developed a solution - **B**usiness **I**mpact **A**ssessment (BIA) - to aid systems defenders analyze the impact a cyber-incident can have on an organization. BIA accomplishes this by simulating the impact of cyber-threats directly onto business-processes, providing a higher-level of situational awareness to responders.
+Wanting to learn more, I became a research fellow at [INOV](https://www.inov.pt/)'s cyber security department to work on my dissertation.
+During this time I developed a solution - **B**usiness **I**mpact **A**ssessment (BIA) - to aid systems defenders analyze the impact a cyber-incident can have on an organization. BIA accomplishes this by simulating the impact of cyber-threats directly onto business-processes, providing a higher-level of situational awareness to responders.
 
 After finishing my MSc, I stayed on as a cyber security engineer, primarily to research and develop a new solution to scanless monitor vulnerabilities. Now, I am working in a SOC, exactly as the system defender/responder BIA was created to help.
 

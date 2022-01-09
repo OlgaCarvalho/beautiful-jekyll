@@ -7,7 +7,7 @@ comments: true
 ---
 Recently I have started a job in a SOC (Security Operations Center).
 
-When you start working in a new company it is normal to notice there are abbreviations the team already uses daily. If you're a junior starting a new job probably you won't know the meaning of many, even though some could be obvious, since you are not used to the abbreviation itself it's normal to feel a little lost in the first conversations with your teammates.
+When you start working in a new company it is normal to notice there are abbreviations the team already uses daily. If you're a junior starting a new job probably you won't know the meaning of many, even though some could be obvious. Since you are not used to the abbreviation itself it's normal to feel a little lost in the first conversations with your teammates.
 
 Here I've compiled every abbreviation I encountered during my first month on the job. Feel free to browse trough if you are starting like me, or if you want to empower a new on-boarder to feel more confident.
 

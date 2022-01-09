@@ -203,7 +203,7 @@ Now you send the `encrypted_secret_maessage.enc` to Alice.
 
 #### Step 4. Alice decrypts the file
 
-Finally, Alice receives the file and will decrypt it with her private key:
+Finally, Alice receives the file and she will decrypt it with her private key:
 
 ```sh
  openssl rsautl -decrypt -inkey alice_private.key -in encrypted_secret_message.enc > decrypted_secret_message.txt
@@ -214,7 +214,7 @@ Finally, Alice receives the file and will decrypt it with her private key:
 
 
 
-Note: Alice knows this file was intended only for her, but she cannot know for sure who send it. When dealing with asymmetric encryption, the confidentiality can be guaranteed, or the authenticity can be guaranteed, but not both at the same time. Read more about asymmetric encryption here.
+Note: Alice knows this file was intended only for her, but she cannot know for sure who send it. When dealing with asymmetric encryption, the confidentiality can be guaranteed, or the authenticity can be guaranteed, but not both at the same time. Read more about [asymmetric encryption](https://en.wikipedia.org/wiki/Public-key_cryptography).
 
 
 
@@ -241,7 +241,7 @@ A good hash function is made in order to ensure:
 
 A very common use case is *password hashing*.
 
-A service provider only saves a *hash* of your password, enabling the provider to validate your password without having to save the password itself.
+A service provider only saves a *hash* of your password, enabling the service to validate your password without having to save the password itself.
 
 This means the provider won't have direct access to your passwords, and if the database with the passwords' hashes is compromised, an attacker should not be able to compute the passwords from their hashes. This of course doesn't stop the attacker to use a *Pass the Hash* attack to try to authenticate to the service, but this is a story for another day 😁.
 
@@ -249,7 +249,7 @@ This means the provider won't have direct access to your passwords, and if the d
 
 ### Hashing example
 
-Let's say Alice wants a way to validate the file you sent her was not altered on the way.
+Let's say Alice wants a way to validate that the file you sent her was not altered on the way.
 
 You can compute the hash of your `secret_message.txt` and send it to her. This way Alice can also compute the hash and compare them.
 

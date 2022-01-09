@@ -44,7 +44,7 @@ Looking back I am happy to say all my initial goals (and more) were achieved:
 
 * From a mentor-mentee relationship you can definitely understands what it takes to be a good mentor.
   1. Be your mentee biggest cheerleader. Sometimes what we need is someone reminding us we can do anything and giving us a push.
-  2. Take initiative. This should be done by both sides of the relationship. As a mentee, it's in your interest to take the most out of the mentorship. As a mentor, it is your job to give the recourses to do so.
+  2. Take initiative. This should be done by both sides of the relationship. As a mentee, it's in your interest to take the most out of the mentorship. As a mentor, it is your job to give the resources to do so.
   3. Establish goals for the mentorship.
 
 * For my final goal, in addition to the networking events, I personally reached out to mentors in PWIT network specialized in cyber security, that took the time to share their thoughts about the field. These conversations ended up having the biggest impact regarding the next step of my career. And, finally, connected with another mentee with interest in the same field.
