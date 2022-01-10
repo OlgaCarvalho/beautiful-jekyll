@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Concepts you need to known when starting on a SOC
-subtitle:
+title: Concepts you need to know when starting on a SOC
+subtitle: A list of known acronyms in the security field
 tags: [incident analysis, incident response]
 comments: true
 ---
