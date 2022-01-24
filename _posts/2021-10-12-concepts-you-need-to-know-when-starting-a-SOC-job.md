@@ -21,6 +21,7 @@ Let me know if you would like me to add more to this list.
 | Acronym  | Definition                                |
 | -------- | ----------------------------------------- |
 | AD       | Active Directory                          |
+| AD FS    | Azure Active Directory Federation Services|
 | AV       | Anti-Virus                                |
 | CERT     | Computer Emergency Response Team          |
 | CTI      | Cyber Threat Intelligence                 |
@@ -33,6 +34,7 @@ Let me know if you would like me to add more to this list.
 | IR       | Incident Response                         |
 | MaaS     | Malware-as-a-Service                      |
 | MD       | Microsoft Defender (a.k.a Windows Defender)                       |
+| MDI      | Microsoft Defender for Identity           |
 | MFA      | Multi-Factor Authentication               |
 | MISP     | Malware Information Sharing Platform      |
 | MSSP     | Managed Security Service Provider         |
@@ -40,6 +42,6 @@ Let me know if you would like me to add more to this list.
 | SIEM     | Security Information and Event Management |
 | SOC      | Security Operations Center                |
 | SOO      | Single Sign-On                            |
-|TOTP     | Time-based One-Time Password |
+| TOTP     | Time-based One-Time Password              |
 | TTPs     | Tactics, Techniques and Procedures        |
-| WD    | Windows Defender        |
+| WD       | Windows Defender                          |

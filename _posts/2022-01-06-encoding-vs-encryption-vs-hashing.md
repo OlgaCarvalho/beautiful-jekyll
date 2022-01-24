@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Encoding vs. Encryption vs. Hashing
-subtitle:
+subtitle: The main differences
 tags: [1vs1, howto]
 ---
 
@@ -72,7 +72,7 @@ With this result you can immediately help secure your organization by putting th
 
 ## Encryption
 
-The goal on encryption is to transform the data in a way that only authorized entities (with a key or password) are able to decrypt and read the original content.
+The goal of encryption is to transform the data in a way that only authorized entities (with a key or password) are able to decrypt and read the original content.
 
 This is done by transforming readable information, *plaintext*, into unreadable information, *ciphertext*,  using an algorithm, *cipher*, in order to protect the information during communication.
 
