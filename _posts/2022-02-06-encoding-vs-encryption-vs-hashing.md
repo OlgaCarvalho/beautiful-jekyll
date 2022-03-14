@@ -124,12 +124,12 @@ Where:
 
 * `genrsa` - command to generate a RSA private key.
 * `-aes128` - use a symmetric key algorithm, AES of 128 bits, to encrypt the private key that is generated.
-* `-out <filename.pem>` - Output the key to the specified file.
+* `-out <filename.key>` - Output the key to the specified file.
 * `1024` -  The size of the private key to generate in bits..
 
 This command will generate a 1024-bit public/private key pair, where the private key will be encrypted with AES128 cipher.
 
-Now, this `.pem` file englobes both keys, so Alice must extract the public key in order to share it with you.
+Now, this `.key` file englobes both keys, so Alice must extract the public key in order to share it with you.
 
 *Note:* If you wish to see (decrypt) the private key you can use:
 
