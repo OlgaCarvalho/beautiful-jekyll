@@ -9,6 +9,11 @@ You might have heard about these words, Encoding, Encryption and Hashing, used i
 
 Indeed it is a common misconception that these words refer to the same thing, when in reality they refer to their own different techniques and goals.
 
+
+* **Encoding**: is a reversible transformation of data, used with the goal of *preserving* the **usability** of data.
+* **Encryption**: is a secure encoding of data, used with the goal of *protecting* the **confidentiality** of data.
+* **Hashing**: is a irreversible transformation of data, used with the goal of *validating* the **integrity** of data.
+
 Let's take a quick look at each one. Also, I created a little exercise for each if you want to have a little fun.
 
 
@@ -294,11 +299,3 @@ sha256sum decrypted_secret_message.txt
 - [x] Hashes are the same !
 
 
-
-
-
-## Summary
-
-* **Encoding**: reversible transformation of data, used with the goal of *preserving* the **usability** of data.
-* **Encryption**: secure encoding of data, used with the goal of *protecting* the **confidentiality** of data.
-* **Hashing**: irreversible transformation of data, used with the goal of *validating* the **integrity** of data.
