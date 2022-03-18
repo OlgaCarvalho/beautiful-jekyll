@@ -370,7 +370,7 @@ At this point you can go in two different directions:
 	What you've done during this guide should be enough to understand how to navigate and add your content using a theme.
 
 2. You would like to learn more about frontend and fully customize your website.
-* Start by installing Jekyll and an IDE on your computer. I use [Atom](https://atom.io/) that has great plugins for Jekyll and GitHub/Git.
+* Start by installing Jekyll and an IDE on your computer. I use Visual Studio Code that has great plugins for Jekyll, namely `Jekyll Run`.
 This way you can change and try out things locally before committing them to your website.
 * Create `_includes` to organize your markup snippets. Then you can reuse them by injecting them into your `_layouts` pages.
 * Add Google Analytics to your website so you can see stats on the visitors to your website. Here's an [example](https://desiredpersona.com/google-analytics-jekyll/).
