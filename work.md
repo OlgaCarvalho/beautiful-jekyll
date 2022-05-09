@@ -13,7 +13,9 @@ Here I am documenting my journey as a:
 
 ## 💼 Professional
 
-- **Aug 2021 – Present:** Cyber Security Analyst (SOC) at *AISI*
+- **May 2022 – Present:** Cyber Security Engineer & Threat Hunter at *Noesis*
+
+- **Aug 2021 – May 2022:** Cyber Security Analyst (SOC) at *AISI*
 
 - **Feb 2019 – Aug 2021:** Cyber Security Engineer at *INOV INESC Inovação*
 
