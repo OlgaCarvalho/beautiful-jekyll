@@ -2,9 +2,9 @@
 layout: post
 title: Setup a keyboard shorcut to paste text
 subtitle: How to use a key combination to paste any text you want
-tags: [organization, howto]
+tags: [organization, howto, linux]
 ---
-There are quite a few situations where you surely felt that you write the same thing over and over again.
+There are quite a few situations where you surely have felt that you are writing the same thing over and over again.
 
 * When you need to enter your email address (but you don't want your browser to store it);
 * When you use a shared mailbox but you like to sign your name;

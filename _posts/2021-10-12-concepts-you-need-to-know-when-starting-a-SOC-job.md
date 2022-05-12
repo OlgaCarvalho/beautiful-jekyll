@@ -2,7 +2,7 @@
 layout: post
 title: Concepts you need to know when starting on a SOC
 subtitle: A list of known acronyms in the security field
-tags: [incident analysis, incident response]
+tags: [DFIR]
 comments: true
 ---
 Recently I have started a job in a SOC (Security Operations Center).
