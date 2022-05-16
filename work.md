@@ -19,11 +19,11 @@ Here I am documenting my journey as a:
   * Daily SOC Level 1/2 for 2000+ stations.
   * Monitoring intrusions, attacks and anomaly patterns for 30+ Customers.
   * Investigation and enrichment of security events (Sigma rules and Sysmon EventIds patterns).
-  * Risk mitigation leveraging quick response mechanisms (process killing and network quarantine).
+  * Risk mitigation leveraging quick response mechanisms (Process killing and Network quarantine).
   * Remediation proposals interfacing with Customer's IT team, following major incidents.
   * Detection logic adjustment to fit Customer needs.
-  * Identify threat trends through open and premium sources and propose mitigation measures.
-  * Digital forensic investigations of ransomware attacks (Windows environment).
+  * Identification of threat trends through open and premium sources and proposals of mitigation measures.
+  * Digital forensic investigations of ransomware attacks (Windows environments).
   * Analysis of current Customers' security level status, presented during regular steering committees with Customer, as well as solutions and best practices.
   * Technical demonstration of Proof-of-Concepts (POCs) of exploits to raise SOC team's awareness of attacker techniques.
   * Development of a Python3 tool to parse and apply Sigma Rules to logs recorded in a Sqlite database.
@@ -39,34 +39,42 @@ Here I am documenting my journey as a:
 
   * **Sep 2020 – Aug 2021:** R&D Cyber Security Engineer
     * Research, development and operation of a scanless vulnerability monitoring service, provided to a Portuguese critical infrastructure.
+    * Development of 3th party REST API integration (`requests` python library) of GLPI (an open-source asset management software).
     * Vulnerability research and issue of advisories reports to Customer.
-    * Grey-box security audits / penetration testing to a web applications.
-    * Review of technical documents
+    * Grey-box security audits / penetration testing to web applications.
+    * Review of technical documents.
     * *Expertise*:
-      * **Vulnerability Frameworks:** ISO 27032 (vulnerability, threat), CVSS, NVD (CPE, CVE, CVSS), CVESearch, GLPI (Asset Management)
-      * **Tech Stack**: MongoDB, MariaDB, Redis Server, Python3, 3th party REST API integration (`requests` python library)
-      * **Cyber Ofense Tools**: BURP Suite, Nmap, OWASP ZAP, WAF detection (wafw00f), Metasploit, Nikto, Kali Linux
+      * **Vulnerability Frameworks:** ISO 27032 (vulnerability, threat), CVSS, NVD (CPE, CVE, CVSS), CVESearch
+      * **Tech Stack**: MongoDB, MariaDB, Redis Server, Python3, Postman, Linux Ubuntu and CentOS8
+      * **Cyber Offense Tools**: BURP Suite, Nmap, OWASP ZAP, WAF detection (wafw00f), Metasploit, Nikto, Kali Linux, OWASP framework
 
   * **Feb 2019 – Sep 2020:** Cyber Security Researcher (MSc Student)
-    * Development of an impact assessment tool to evaluate the impact of cyber-threats on business-processes (basis of MSc dissertation).
-    * Presentation of results under a set of Work Packages (WP) and Deliverables (D) consolidated on an H2020 European project.
+    * Development of an impact assessment tool to evaluate the impact of cyber-threats on business-processes.
+    * Presentation of results under a set of Work Packages (WP) and Deliverables (D) consolidated on an European project with 9+ countries-partners.
+    * Research and development of [2 publications](#publications).
     * *Expertise*:
-      * **Network Tools:** Wireshark/Tshark, Moloch, Postman, Docker
-      * **Tech Stack**: Python3, Bash scripting, Neo4j, MongoDB, MariaDB (MySql), Redis, Linux Ubuntu, CentOS8
+      * **Network Tools:** Wireshark/Tshark, Moloch, Docker
+      * **Tech Stack**: Python3, Bash scripting, Neo4j, Ubuntu
       * **Cyber Security Frameworks:** ISO 27005 (risk, impact), STRIDE (threat modelling), MITRE ATT&CK
+    * *Summary*:
+    > Integrated on Horizon 2020 SATIE airport security project, my MSc dissertation has resulted in a new tool named [BIA](#business-impact-assessment-msc-thesis) that simulates and assesses the impact of cyber-threats on the business-processes of an organization.
 
 - **Jul 2015 – Sep 2015:** IT Intern at *AquiHáChef*
   * Support in WordPress website maintenance.
   * Interviews to new collaborators.
   * Management of social media marketing campaigns.
   * *Expertise*:
-    * **Tech Stack:** HTML and CSS
+    * **Tech Stack:** WordPress, HTML and CSS
+  * *Summary*:
+  > Summer internship at a startup company. Integrated in a small team, I got to be a part of every aspect of the starting process of creating a company. As an intern I was able to aid in the maintenance of a WordPress website, setting up and perform interviews for potential new collaborators and manage social media marketing campaigns.
 
 
 - **Jul 2014 – Sep 2014:** IT Intern at *Hospital Espírito Santo de Évora*
   * Technical support to health services.
   * Interaction with a wide range of stakeholders with different levels of technical expertise.
   * Technical maintenance of devices.
+  * *Summary*:
+  > Summer internship at a Hospital's IT department. From assisting medical staff with various applicational and technical issues, setting up electrical outlets and videoconferences, to relocating an entire server rack, I got to experience the practical side of Computers and Electricity (while running several miles from one service to the other everyday).
 
 
 You can also see my professional experience on <a href="https://linkedin.com/in/{{ site.social-network-links.linkedin }}">LinkedIn</a>.
