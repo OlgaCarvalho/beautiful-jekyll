@@ -20,17 +20,17 @@ Here I am documenting my journey as a:
   * Monitoring intrusions, attacks and anomaly patterns for 30+ Customers.
   * Investigation and enrichment of security events (Sigma rules and Sysmon EventIds patterns).
   * Risk mitigation leveraging quick response mechanisms (process killing and network quarantine).
-  * Remediations proposals interfacing with Customer's IT team, following major incidents.
+  * Remediation proposals interfacing with Customer's IT team, following major incidents.
   * Detection logic adjustment to fit Customer needs.
   * Identify threat trends through open and premium sources and propose mitigation measures.
   * Digital forensic investigations of ransomware attacks (Windows environment).
-  * Analysis of current Customers' security level status, presented during regular steering comitees with Customer, as well as solutions and best practices.
-  * Tecnhical demonstration of Proof-of-Concepts (POCs) of exploits to raise SOC team's awareness of attacker techniques.
+  * Analysis of current Customers' security level status, presented during regular steering committees with Customer, as well as solutions and best practices.
+  * Technical demonstration of Proof-of-Concepts (POCs) of exploits to raise SOC team's awareness of attacker techniques.
   * Development of a Python3 tool to parse and apply Sigma Rules to logs recorded in a Sqlite database.
   * Participation on infrastructure technical proposals (Security section).
   * Onboarding of new elements to the team.
-  * Expertise:
-    * *Platforms knowledge*:  ELK stack (Elasticsearch, Logstash, and Kibana).
+  * *Expertise*:
+    * **Platforms Knowledge**:  ELK stack (Elasticsearch, Logstash, and Kibana).
     * **Cyber Defense Tools**: SentinelOne, Winlog, O365 Security, Microsoft 365 Defender (MD), Microsoft Defender for Identity (MDI), OpenCTI 
   
   
@@ -42,25 +42,25 @@ Here I am documenting my journey as a:
     * Vulnerability research and issue of advisories reports to Customer.
     * Grey-box security audits / penetration testing to a web applications.
     * Review of technical documents
-    * Expertise:
-      * *Vulnerability Frameworks:* ISO 27032 (vulnerability, threat), CVSS, NVD (CPE, CVE, CVSS), CVESearch, GLPI (Asset Management)
-      * *Tech stack*: MongoDB, MariaDB, Redis Server, Python3, 3th party REST API integration (`requests` python library)
+    * *Expertise*:
+      * **Vulnerability Frameworks:** ISO 27032 (vulnerability, threat), CVSS, NVD (CPE, CVE, CVSS), CVESearch, GLPI (Asset Management)
+      * **Tech Stack**: MongoDB, MariaDB, Redis Server, Python3, 3th party REST API integration (`requests` python library)
       * **Cyber Ofense Tools**: BURP Suite, Nmap, OWASP ZAP, WAF detection (wafw00f), Metasploit, Nikto, Kali Linux
 
   * **Feb 2019 – Sep 2020:** Cyber Security Researcher (MSc Student)
-    * Development of an impact assessment tool to evalute the impact of cyber-threats on business-processes (basis of MSc dissertation).
+    * Development of an impact assessment tool to evaluate the impact of cyber-threats on business-processes (basis of MSc dissertation).
     * Presentation of results under a set of Work Packages (WP) and Deliverables (D) consolidated on an H2020 European project.
-    * Expertise:
-      * *Network tools:* Wireshark/Tshark, Moloch, Postman, Docker
-      * *Tech stack*: Python3, Bash scripting, Neo4j, MongoDB, MariaDB (MySql), Redis, Linux Ubuntu, CentOS8
+    * *Expertise*:
+      * **Network Tools:** Wireshark/Tshark, Moloch, Postman, Docker
+      * **Tech Stack**: Python3, Bash scripting, Neo4j, MongoDB, MariaDB (MySql), Redis, Linux Ubuntu, CentOS8
       * **Cyber Security Frameworks:** ISO 27005 (risk, impact), STRIDE (threat modelling), MITRE ATT&CK
 
 - **Jul 2015 – Sep 2015:** IT Intern at *AquiHáChef*
   * Support in WordPress website maintenance.
   * Interviews to new collaborators.
   * Management of social media marketing campaigns.
-  * Expertise:
-    * *Tech Stack:* HTML and CSS
+  * *Expertise*:
+    * **Tech Stack:** HTML and CSS
 
 
 - **Jul 2014 – Sep 2014:** IT Intern at *Hospital Espírito Santo de Évora*

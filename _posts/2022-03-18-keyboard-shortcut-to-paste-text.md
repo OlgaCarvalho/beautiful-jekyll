@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Setup a keyboard shorcut to paste text
+title: Setup a keyboard shortcut to paste text
 subtitle: How to use a key combination to paste any text you want
 tags: [organization, howto, linux]
 ---
