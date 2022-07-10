@@ -98,6 +98,7 @@ You can also see my professional experience on <a href="https://linkedin.com/in/
 * Java, by *Codeacademy*
 
 #### 🎬 Webinars
+* TOP Vulnerabilities and Recommendations - Overview 2021, by *Integrity*
 * Cyber Threat Intelligence & Forensics Analysis, by *Hardsecure, Segurança em Sistemas de Informação*
 * UX UI Design, by *Noesis*
 * Agile, by *NOS*
