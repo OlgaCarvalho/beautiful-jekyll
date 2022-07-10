@@ -33,8 +33,8 @@ Before we start, create an account on GitHub!
 In the repository name field use your github username as such: `your-username.github.io`
 
 Use the settings:
-- [x] Public
-- [x] Add a README file
+✅ Public
+✅ Add a README file
 
 #### Step 2. Make sure your site is up and running
 Go into your new repository and go to **Settings | Pages** and check if you see the following:
@@ -241,7 +241,7 @@ It should look like:
 
 Don't forget to commit the changes. Always!
 
-- [x] Check again your website. Much better right!?
+✅ Check again your website. Much better right!?
 
 
 

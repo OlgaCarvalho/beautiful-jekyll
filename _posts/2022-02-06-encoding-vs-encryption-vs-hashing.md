@@ -296,6 +296,6 @@ sha256sum decrypted_secret_message.txt
 
 
 
-- [x] Hashes are the same !
+✅ Hashes are the same !
 
 
