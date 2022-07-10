@@ -1,7 +1,7 @@
 ---
 layout: post
-title: CyberDefenders CyberCorp Case 2 - Write-Up Part 1/3
-subtitle: Full solution (beware of spoilers!)
+title: CyberDefenders CyberCorp Case 2 - Write-Up Part 1
+subtitle: Detailed solution (beware of spoilers!)
 tags: [DFIR, howto, lab, windows]
 ---
 
