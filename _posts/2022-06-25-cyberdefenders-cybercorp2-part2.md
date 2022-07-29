@@ -7,7 +7,7 @@ tags: [DFIR, howto, lab, windows]
 
 Continuing solving the [CyberCorp Case 2](https://cyberdefenders.org/blueteam-ctf-challenges/75) challenge from [CyberDefenders](https://cyberdefenders.org/).
 
-This is part 2. Checkout [part 1]({{ site.baseurl }}{% link _posts/2022-06-05-cyberdefenders-cybercorp2-part1.md %}) for more details on the challenge.
+This is Part 2. Checkout [Part 1]({{ site.baseurl }}{% link _posts/2022-06-05-cyberdefenders-cybercorp2-part1.md %}) for more details on the challenge.
 
 
 
