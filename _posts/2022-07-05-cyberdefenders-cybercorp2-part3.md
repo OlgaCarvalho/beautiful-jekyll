@@ -10,7 +10,6 @@ Finishing solving the [CyberCorp Case 2](https://cyberdefenders.org/blueteam-ctf
 This is Part 3. Checkout [Part 1]({{ site.baseurl }}{% link _posts/2022-06-05-cyberdefenders-cybercorp2-part1.md %}) and [Part 2]({{ site.baseurl }}{% link _posts/2022-06-25-cyberdefenders-cybercorp2-part2.md %}) for more details on the challenge.
 
 
-
 ## Challenge Questions (11-15)
 
 ### 11. From where did the attacker downloaded the Active Directory collection utility?
@@ -291,7 +290,7 @@ certutil.exe -urlcache -f UrlAddress Output-File-Name.txt
 certutil.exe -decode Output-File-Name bad.gzip
 ```
 
-* `desktopimgdownldr.exe`. Located in `c:\windows\system32\desktopimgdownldr.exedeskt` is used to set lock screen or desktop background images.
+* `desktopimgdownldr.exe`. Located in `c:\windows\system32\desktopimgdownldr.exe` is used to set lock screen or desktop background images.
 
 ```powershell
 # Basic usage
@@ -340,7 +339,7 @@ Here's a suggestion of a structure for a general digital forensic report:
 
 1. Scope (requested by / provided by / relevant dates)
 2. Executive Summary
-3. Proposed Mitigations
+3. Proposed Mitigation
 4. The investigation itself. This should include at least:
    * Timeline of attack
    * IOCs

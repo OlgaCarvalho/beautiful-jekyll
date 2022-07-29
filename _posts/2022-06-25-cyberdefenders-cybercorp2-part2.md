@@ -10,7 +10,6 @@ Continuing solving the [CyberCorp Case 2](https://cyberdefenders.org/blueteam-ct
 This is Part 2. Checkout [Part 1]({{ site.baseurl }}{% link _posts/2022-06-05-cyberdefenders-cybercorp2-part1.md %}) for more details on the challenge.
 
 
-
 ## Challenge Questions (6-10)
 ### 6. What is the domain from which the files were downloaded?
 
@@ -66,7 +65,7 @@ Another [CyberChef](https://gchq.github.io/CyberChef/#recipe=From_Base64('A-Za-z
 
 > The second file downloaded (as a result of code execution, which we talked about in question 5) was a script, that was set up to autostart via WMI Subscription. Specify the SHA256 hash of this script.
 
-Removing the filters we used to look for registry values, we can see again sequences of WMI subscriptions, followed by the NetworkConnection/DNSReq combination that preceeded the registry key value set.
+Removing the filters we used to look for registry values, we can see again sequences of WMI subscriptions, followed by the NetworkConnection/DNSReq combination that preceded the registry key value set.
 
 Continuing to browse the logs in the same sequence we can see another NetworkConnection/DNSReq combination near a WMI subscription.
 
@@ -137,7 +136,7 @@ Browsing trough the whole script we know it could take hours to understand exact
    $input.Close()
    [byte[]] $PEBytes = $output.ToArray()														# PE bytes as an array
    ```
-2. In following lines we can see several invocations to Win32 API, done via the `Add-type` cmdlet. When `Add-Type` is used to compile C#, code forensic artifacts can be found on disk, usually in a `temp` folder. For istance,
+2. In following lines we can see several invocations to Win32 API, done via the `Add-type` cmdlet. When `Add-Type` is used to compile C#, code forensic artifacts can be found on disk, usually in a `temp` folder. For instance,
    ![image-20220519171912329](/assets/img/image-20220519171912329.png)
 3. In the last lines of the script [[7/7]](#77) we can see a reference to a variable named `$spawnTo`. Knowing from the question phrasing that this script *spawned* a legitimate process, it is worth to investigate further - Indeed it looks like the legitimate process `dwm.exe` is the one we are looking for (see commented lines below).
 ```powershell
@@ -196,11 +195,11 @@ Updating the query to:
 
 Finally, it looks like we have evidence of PPID spoofing, where the process `dwm.exe` is created with `winlogon.exe` as spoofed parent.
 
-Now, after exausting all combination of PIDs related to `winlogon.exe` creating the process  `dwm.exe`, I decided to give in and look for a hint. I joined CyberDefender's Discord group and saw this particular message:
+Now, after exhausting all combination of PIDs related to `winlogon.exe` creating the process  `dwm.exe`, I decided to give in and look for a hint. I joined CyberDefender's Discord group and saw this particular message:
 
 > (...) Maybe it's the wording that is confusing me, but I think #9's answer should be switched. For example, it should be "1234,4567" instead of the accepted answer of "4567,1234". Can this be confirmed? This might explain why people are having problems solving it. 
 
-So taking this suggestion in mind, I retried the combinations of `winlogon.exe` /`dwm.exe` PIDs in reverse and voilá:
+So taking this suggestion in mind, I retried the combinations of `winlogon.exe` /`dwm.exe` PIDs in reverse and voilà:
 
 ✅ 8876,1160 
 
@@ -214,7 +213,7 @@ Rereading the question, it does indeed make sense that the first one is the spaw
 
 > The malicious code run by the script is a Reverse Shell. Identify the IP address and port number of its command center.
 
-Assuming that the reverse shell was successfull, a network connection is expected to be logged.
+Assuming that the reverse shell was successful, a network connection is expected to be logged.
 
 Updating the query to:
 

@@ -61,7 +61,7 @@ And we have:
 
 We can see a new WMI object being created with:
 
-* **_EventFilter** name = `PowerControl Event`. This is the trigger (for istance, new process, failed logon etc.)
+* **_EventFilter** name = `PowerControl Event`. This is the trigger (for instance, new process, failed logon etc.)
 * **EventConsumer** name = `PowerControl Consumer`. This is the action to be performed (for instance, execute payload etc.)
 * **__FilterToConsumerBinding**. This binds the Filter and Consumer Classes.
 
@@ -73,7 +73,7 @@ Let's remove all our filters and look more into `PowerControl Consumer`:
 *PowerControl*
 ```
 
-Analysing the 7 results we got we can see that:
+Analyzing the 7 results we got we can see that:
 
 * >  WMI filter 'powercontrol event'was created by user 🧑‍💻️'cybercorp\john.goldberg'
 
@@ -104,7 +104,7 @@ To do this we need to look at what happened prior to the WMI subscription. And s
 StartDate: 21-06-2022 at 23:00 AND EndDate: 21-06-2022 23:25:50
 ```
 
-After analysing some logs I see an immediate way that can filter the results by excluding whitelisted hashes:
+After analyzing some logs I see an immediate way that can filter the results by excluding whitelisted hashes:
 
 ```elixir
 NOT enrich.ti.file_md5.categories: Whitelist
@@ -194,7 +194,7 @@ From Question 3. we already know there was an outbound communication from the ma
 
 ![image-20220518194754074](/assets/img/image-20220518194754074.png)
 
-Loking at the logs above, we see a NetworkConnection event to our suspicious domain and then a file named `FontStyles[1].dotm` (with hash = 65df8039cbd1b3fb40a1cc9198c2ba314dd38ff7d301ee475327d438346d96af) being opened at `AppData\Local\Microsoft\Windows\INetCache\IE` (a Windows cache that contains Internet files).
+Looking at the logs above, we see a NetworkConnection event to our suspicious domain and then a file named `FontStyles[1].dotm` (with hash = 65df8039cbd1b3fb40a1cc9198c2ba314dd38ff7d301ee475327d438346d96af) being opened at `AppData\Local\Microsoft\Windows\INetCache\IE` (a Windows cache that contains Internet files).
 
 ✅ 188.135.15.49, 65df8039cbd1b3fb40a1cc9198c2ba314dd38ff7d301ee475327d438346d96af
 
