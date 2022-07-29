@@ -321,7 +321,7 @@ event_id:5308
 ```elixir
 event_type: NetworkConnection OR event_type: FileCreate OR event_type: FileOpen
 ```
-In this way, we can see every creation or opening files together with network connections.
+In this way, we can look for created and opened files followed by network connections.
 
 
 
