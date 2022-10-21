@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How ransomware works
-subtitle: A high-level overview of how ransomware works
+subtitle: A high-level overview
 tags: [DFIR, howto]
 ---
 
@@ -155,7 +155,3 @@ Even as more and more organizations roll out defenses like MFA, attackers will f
 This is the reality security professionals live in - there is no finish line in cyber security - it is an endless game of survival ⚔️.
 
 However there is always ways to improve, adapt and stay alert 🕵️‍♀️.
-
-Next post I'll talk about:
-* How to respond to a ransomware
-* How to prevent a ransomware
