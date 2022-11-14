@@ -35,7 +35,7 @@ In this post I will outline how to make a quick and simple **slash command** bot
 
 To get started, create a new Slack App on [api.slack.com](https://api.slack.com): click on the button **Create an app**.
 
-Then select the **name** you want to give the app (for instance, HelloWorld") and the **workspace** where you want to build the app on. Make sure you already have one workspace in your Slack channel.
+Then select the **name** you want to give the app (for instance, "HelloWorld") and the **workspace** where you want to build the app on. Make sure you already have one workspace in your Slack channel.
 
 ![image-20221109105740809](/assets/img/image-20221109105740809.png)
 
@@ -77,9 +77,9 @@ Finally, we will have a **Bot User OAuth Token** in the format `xoxb-****-****-*
 
 First you need to download *ngrok* from its official website.
 
-This is a command line application, so you need to open a terminal and run `ngrok.exe http 3000`.
+This is a command line application, so you need to open a terminal and run `ngrok.exe http 3000`(I am doing this in Windows).
 
-Once it's opened, we'll see a screen like the one below.
+Once it's opened, you'll see a screen like the one below.
 
 ![ngrok](/assets/img/ngrok.png)
 
@@ -114,7 +114,7 @@ pip install slack_bolt
 
 What you will need:
 
-* `SLACK_BOT_TOKEN` - this is the token we saw in [this section](#install-the-app) above.
+* `SLACK_BOT_TOKEN` - this is the token we saw [previously](#install-the-app).
 * `SLACK_SIGNING_SECRET` - this token can be found in [Slack API](https://api.slack.com). Navigate to **Settings \| Basic Information** on the left pane of the app and under **App Credentials** copy your **Signing Secret**.
 * Make sure you have your *ngrok* running. See [step 2](#step-2.-Run-ngrok).
 
