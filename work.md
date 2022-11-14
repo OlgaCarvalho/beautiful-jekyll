@@ -104,6 +104,7 @@ You can also see my professional experience on <a href="https://linkedin.com/in/
 * Agile, by *NOS*
 
 #### 🎤 Conferences
+* [BSides Lisbon](https://bsideslisbon.org/) 2022 (presential)
 * C-DAYS 2021 – Naturalizar Competências, by *CNCS*
 * C-DAYS 2020 – Abraçar o Futuro, by *CNCS*
 
