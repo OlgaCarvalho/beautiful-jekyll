@@ -23,7 +23,7 @@ In this post I will outline how to make a quick and simple **slash command** bot
 ## What we need
 
 * Slack account
-* Ngrok reverse proxy that will front our local web service
+* Ngrok reverse proxy that will front our local web service (not secure, only use for local development and testing purposes!)
 * Python to develop our app
 *  `slack_bolt` Python package to interact with Slack's API
 

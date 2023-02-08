@@ -13,7 +13,7 @@ Here I am documenting my journey as a:
 
 ## 💼 Professional
 
-- **May 2022 – Present:** Senior Consultant at *Noesis*, working as a Cyber Security Engineer & Threat Hunter at *NOS*
+- **May 2022 – Present:** Senior Consultant at *Noesis*, working as a Threat Hunter at *NOS*
 
 - **Aug 2021 – May 2022:** Cyber Security Analyst (SOC) at *AISI*
   * Daily SOC Level 1/2 for 2000+ stations.
