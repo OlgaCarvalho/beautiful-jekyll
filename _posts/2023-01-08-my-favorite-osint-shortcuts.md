@@ -20,27 +20,27 @@ As the main source of threat intelligence on my team, I need to always be up to 
 
 The shortcuts in this folder are mainly links to available online dashboards on ransomware and vulnerability activity, malicious trends and news. Here are my top 10.
 
-### Ransomware activity
+#### Ransomware activity
 
 * [ransom-db](https://www.ransom-db.com/real-time-updates) - for live news on victims (limited to the last 15 victims)
 * RedPacket Security's [Databreach](https://www.redpacketsecurity.com/category/databreach/) - for an archive of ransomware victims
 
 
 
-### Vulnerability activity
+#### Vulnerability activity
 
 * [CVE Trends](https://cvetrends.com/) - to monitor trending CVEs on Twitter
-* [InTheWild](https://inthewild.io/feed) - to monitor CVEs that are being exploited, and their exploits
+* [InTheWild](https://inthewild.io/feed) - to monitor CVEs that are being actively exploited, and their exploits
 * [Zero Day Initiative](https://www.zerodayinitiative.com/advisories/published/) - a list of all publicly disclosed vulnerabilities discovered by Zero Day Initiative researchers
 
 
 
-### Malicious Trends and News
+#### Malicious Trends and News
 
 * GreyNoise's [Tag Trends](https://viz.greynoise.io/trends?view=trending) - to see the latest trending malicious activity
 * Pulsedive [community](https://pulsedive.com/dashboard/soc) - for the latest news in cyber security
 * Darkfeed's [Threat Intelligence](https://darkfeed.io/threat-intelligence/) - for the latest statistics
-* and of course, [Feedly](https://feedly.com/) - curated sources of information, news and trends
+* and finally, [OSINTer](https://osinter.dk/) - where you can organize sources of information, news and trends according to your chosen keywords (and signing up does not require an email 🤯)
 
 
 
@@ -48,7 +48,7 @@ The shortcuts in this folder are mainly links to available online dashboards on 
 
 My hunting tools mostly focus on sources of hunting for IOCs. As you can imagine, this folder has dozens of shortcuts, but here is a list of my top 10.
 
-* [VirusTotal](https://www.virustotal.com/gui/home/search) - the king of kings
+* [VirusTotal](https://www.virustotal.com/gui/home/search) - the king of kings 👑
 * [AlienVault](https://otx.alienvault.com/browse/global/pulses?include_inactive=0&sort=-modified&page=1&limit=10)
 * [Abuse.ch](https://abuse.ch/)
 * [Shodan](https://www.shodan.io/dashboard)
