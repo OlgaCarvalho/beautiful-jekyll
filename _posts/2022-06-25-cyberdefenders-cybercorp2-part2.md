@@ -2,7 +2,7 @@
 layout: post
 title: CyberDefenders CyberCorp Case 2 - Write-Up Part 2
 subtitle: Part 2/3
-tags: [DFIR, howto, lab, windows]
+tags: [DFIR, tutorial, lab, windows]
 ---
 
 Continuing solving the [CyberCorp Case 2](https://cyberdefenders.org/blueteam-ctf-challenges/75) challenge from [CyberDefenders](https://cyberdefenders.org/).

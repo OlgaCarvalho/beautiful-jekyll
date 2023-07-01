@@ -2,7 +2,7 @@
 layout: post
 title: How ransomware works
 subtitle: A high-level overview
-tags: [DFIR, howto]
+tags: [DFIR]
 ---
 
 Ransomware attacks have become increasingly more sophisticated, making it more difficult for organizations to defend against and recover from these attacks 🏴‍☠️.

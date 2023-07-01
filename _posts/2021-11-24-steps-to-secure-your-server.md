@@ -2,7 +2,6 @@
 layout: post
 title: How would you secure a server?
 subtitle: The most popular interview question, for good reason.
-tags: [howto]
 ---
 Servers are vital elements in organizations.
 

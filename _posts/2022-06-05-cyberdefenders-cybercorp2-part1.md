@@ -2,7 +2,7 @@
 layout: post
 title: CyberDefenders CyberCorp Case 2 - Write-Up Part 1
 subtitle: Detailed solution (beware of spoilers!)
-tags: [DFIR, howto, lab, windows]
+tags: [DFIR, tutorial, lab, windows]
 ---
 
 The [CyberCorp Case 2](https://cyberdefenders.org/blueteam-ctf-challenges/75) challenge from [CyberDefenders](https://cyberdefenders.org/) is all about Threat Hunting 🕵️‍♀️, and as I recently started a Threat Hunter role I thought it would be a fun exercise.

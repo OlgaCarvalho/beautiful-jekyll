@@ -2,7 +2,7 @@
 layout: post
 title: Hunt for a QBot infrastructure
 subtitle: Using JARM and HTTP Response hash (step-by-step guide)
-tags: [threathunting, DFIR, howto]
+tags: [threathunting, DFIR, tutorial]
 ---
 
 In this post I will show you how we can hunt for a malicious infrastructure using a few standard concepts and tools.

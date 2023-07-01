@@ -2,7 +2,7 @@
 layout: post
 title: Setup a keyboard shortcut to paste text
 subtitle: How to use a key combination to paste any text you want
-tags: [organization, howto, linux]
+tags: [organization, tutorial, linux]
 ---
 There are quite a few situations where you surely have felt that you are writing the same thing over and over again.
 

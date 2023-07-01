@@ -2,7 +2,7 @@
 layout: post
 title: Setup Your Personal Website For Free
 subtitle: How to use Jekyll and GitHub Pages
-tags: [howto, dev]
+tags: [tutorial, dev]
 ---
 
 

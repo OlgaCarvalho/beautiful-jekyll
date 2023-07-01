@@ -2,7 +2,7 @@
 layout: post
 title: Encoding vs. Encryption vs. Hashing
 subtitle: The main differences
-tags: [1vs1, howto, linux]
+tags: [1vs1, tutorial, linux]
 ---
 
 You might have heard about these words, Encoding, Encryption and Hashing, used interchangeably.

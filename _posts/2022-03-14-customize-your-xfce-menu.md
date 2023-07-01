@@ -2,7 +2,7 @@
 layout: post
 title: Customize your XFCE menu
 subtitle: How to add folders and AppImages to XFCE menu
-tags: [organization, howto, linux]
+tags: [organization, tutorial, linux]
 ---
 If you are using XFCE desktop environment (DE) you might have seen that it isn't possible to access folders directly from the menu.
 

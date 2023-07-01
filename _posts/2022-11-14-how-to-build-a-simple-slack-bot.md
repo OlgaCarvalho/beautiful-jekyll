@@ -2,7 +2,7 @@
 layout: post
 title: How to build a simple Slack bot with Python
 subtitle: 2022 Tutorial
-tags: [howto, dev]
+tags: [tutorial, dev]
 ---
 
 If you enjoy automating your workflows, a Slack bot might be just what you need.
