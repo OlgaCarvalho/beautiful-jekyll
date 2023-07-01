@@ -1000,6 +1000,11 @@ pre {
   margin-bottom: 0;
 }
 
+article.blog-post {
+  text-align: justify;
+}
+
+
 .center {
   display: block;
   margin: 0 auto;
