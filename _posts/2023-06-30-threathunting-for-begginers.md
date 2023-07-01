@@ -32,7 +32,7 @@ During this time, my impostor syndrome reached an all time high, since “who am
 
   
 
-So, with my experience as a security researcher, SOC analyst and incident responder, and insights given by other professionals, I share here my Threat Hunting guide for beginners.
+So, with my experience as a security researcher, SOC analyst and incident responder, and insights given by other professionals, I share here my Threat Hunting process overview and tips on how to get started as a beginner.
 
   
 ## What is Threat Hunting?
