@@ -5,7 +5,7 @@ subtitle: 1-year review as a Threat Hunter
 tags: [threathunting, review, learning]
 ---
  
-This month caught my 1-year anniversary as a Threat Hunter (and my actually birthday 😁) so I thought it would be a nice idea to share what I have learned this year as a first-time Threat.
+This month caught my 1-year anniversary as a Threat Hunter (and my actually birthday 😁) so I thought it would be a nice idea to share what I have learned this year about threat hunting.
   
 
 ## From SOC to Threat Hunter (my story)
