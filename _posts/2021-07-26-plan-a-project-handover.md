@@ -2,7 +2,7 @@
 layout: post
 title: Plan a Project Hand-over
 subtitle: Step-by-step of how to prepare a project hand-over
-tags: [howto]
+tags: [tutorial]
 ---
 
 When you leave a project you have to make sure that it is left in prepared hands.

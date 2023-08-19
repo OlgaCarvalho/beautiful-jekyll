@@ -102,7 +102,7 @@ Then **Save** changes using the button on the bottom right.
 
 *\*`ngrok-URL-above` is the URL on the `Forwarding` field on the previous image.* 
 
-### Step 4. Develop the app
+### Step 4. Python code
 
 With everything set, let's develop our bot!
 
@@ -119,19 +119,37 @@ What you will need:
 * Make sure you have your *ngrok* running. See [step 2](#step-2.-Run-ngrok).
 
 
+#### Store your tokens as environment variables
 
-Then create a file named `bot.py` and use the following code. Make sure you read the comments and understand what is happening.
+These tokens should not be shared publicly, so first create a file `slack_secrets.py` as follows:
+
+```python
+import os
+# Save your Bot token and Signing secret as environment variables
+def set_environment_variables():
+    os.environ["SLACK_BOT_TOKEN"] = "xoxb-****-****"  	# your Bot token
+    os.environ["SLACK_SIGNING_SECRET"] = "xapp-****-****" 	# your Signing Secret token 
+```
+
+If you are using some type of version control, like `git`, make sure you add this file to be excluded, for instance, in `.gitignore`.
+This way, you will have the tokens stored only locally.
+
+*Note*: if you want to access them across devices, you can use, for instance, a secure note on your password manager to store them temporally.
+
+
+#### Write the bot
+Then create a file named `bot.py` and use the following code. 
+*Make sure you read the comments and understand what you are coding.*
 
 ```python
 import os
 from slack_bolt import App
+from slack_secrets import set_environment_variables     # our secrets
 
 def init_app(port):
-    # Save your Bot token and Signing secret as environment variables
-    os.environ["SLACK_BOT_TOKEN"] = "xoxb-****-****"  	# your Bot token
-    os.environ["SLACK_SIGNING_SECRET"] = "*******" 	# your Signing Secret token 
 
-    # Check if the environment variabled were correctly set
+    # Check if the environment variables were correctly set
+    set_environment_variables()
     if os.environ.get('SLACK_BOT_TOKEN', -1) == -1 or os.environ.get('SLACK_SIGNING_SECRET', -1) == -1:
         print("Something went wrong setting the environment variables")
         exit()
@@ -173,7 +191,6 @@ You will have a response like so:
 > Bolt app is running! (development server)
 
 
-
 Go back to your Slack Channel and go to your app.
 
 ![image-20221113220950373](/assets/img/image-20221113220950373.png)
@@ -186,7 +203,7 @@ Write the `/hello` command.
 
 ![image-20221113221145320](/assets/img/image-20221113221145320.png)
 
-And voilá!
+And voilà!
 
 ![image-20221113221205435](/assets/img/image-20221113221205435.png)
 
@@ -198,9 +215,10 @@ Hopefully this guide got you started with Slack and its powerful automations tha
 
 At this point there's a few things we can do:
 
+* Use a connection protocol more secure: using [Socket Mode](https://api.slack.com/apis/connections/socket) to communicate with your app without the necessity of exposing a public HTTP request URL.
+
 * Try listening for events, instead of commands. [Here](https://api.slack.com/start/building/bolt-python#develop) is a good tutorial.
 
-* Use a connection protocol more secure: using [Socket Mode](https://api.slack.com/apis/connections/socket) to communicate with your app without the necessity of exposing a public HTTP request URL.
 
 In the future I will share how I am going to use Slack apps to gather Threat Intel, stay tuned 😊
 

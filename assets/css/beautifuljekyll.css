@@ -436,6 +436,7 @@ footer .footer-custom-content {
   padding: 1.25rem 0;
   border-bottom: 1px solid #eee;
   overflow: hidden;
+  text-align: justify;
 }
 
 @media (min-width: 768px) {
@@ -1109,4 +1110,9 @@ article.blog-post {
   #nav-search-text {
     display: inline-block;
   }
+}
+
+/*custom styles*/
+.text-align--justify{
+  text-align: justify;
 }
