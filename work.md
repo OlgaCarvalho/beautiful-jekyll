@@ -84,20 +84,26 @@ You can also see my professional experience on <a href="https://linkedin.com/in/
 ## 💻 Lifelong Learner
 
 #### 📅 Programs
+* 2023 TechStorm
 * Mentorship program at Portuguese Women in Tech
 
 #### 🚩 Capture-The-Flag exercises (CTFs)
-* BlueTeam, by *CyberDefenders*
+* CyberDefenders CyberCorp Case 2, by *CyberDefenders*
+* Malware Traffic Analysis #1, by *CyberDefenders*
 * Natas, by *overthewire*
 * Bandit, by *overthewire*
 * Hackthisite
 
 #### 🎫 Online Courses
+* Reverse Engineering 101, by *malwareunicorn*
 * Introduction to Networking, by *NYUx*
 * Python3, by *Codeacademy*
 * Java, by *Codeacademy*
 
 #### 🎬 Webinars
+* Nowhere to Hide: 2023 Threat Hunting Report, by *Crowdstrike*
+* Provocatively Proactive - Modern Security Before de Bad Day, by *Huntress*
+* A Strategic Overview of Chinese Cyber Operations, by *Mandiant*
 * TOP Vulnerabilities and Recommendations - Overview 2021, by *Integrity*
 * Cyber Threat Intelligence & Forensics Analysis, by *Hardsecure, Segurança em Sistemas de Informação*
 * UX UI Design, by *Noesis*
