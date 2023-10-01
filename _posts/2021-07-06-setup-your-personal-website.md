@@ -8,15 +8,15 @@ tags: [tutorial, dev]
 
 In this post I will show you how I created my first personal website on GitHub Pages using Jekyll.
 
-## What is GitHub Pages and Jekyll?
+## Time for class
 
-#### GitHub Pages
+### What are GitHub Pages?
 [GitHub](https://github.com/) is a Git (a version control system) repository hosting service that provides a Web-based graphical interface.
 
 [GitHub Pages](https://pages.github.com/) are public webpages hosted for free through GitHub.
 It takes HTML, CSS, and JavaScript files directly from a repository on GitHub, and publishes a website.
 
-#### Jekyll
+### What is Jekyll
 [Jekyll](https://github.com/jekyll/jekyll) is a static site generator, a.k.a, a tool that generates a full HTML static website ready to be served, based on your content and a set of templates.
 Jekyll comes with built-in support for GitHub Pages, which makes it perfect to setup a personal GitHub Page.
 

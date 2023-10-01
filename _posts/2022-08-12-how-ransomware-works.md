@@ -17,7 +17,7 @@ In this post I will talk about:
  
 
 
-## What is ransomware
+## What is ransomware?
 
 [Ransomware](https://cyber.gc.ca/en/glossary#r) is a type of malware that denies a user access to a system or data until a sum of money is paid. 
 

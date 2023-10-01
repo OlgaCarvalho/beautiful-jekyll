@@ -15,7 +15,7 @@ These include:
 
   
 
-## Lecture Time
+## Time for class
 
 ### What is QBot?
 
