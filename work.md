@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Work
-subtitle: Here you can see my ongoing professional journey
+subtitle: Here you can see my professional journey
 ---
 
-Here I am documenting my journey as a:
+Here I am documenting my ongoing journey as a:
 
 * [Professional](#-professional)
 * [Lifelong learner](#-lifelong-learner)
