@@ -8,7 +8,7 @@ tags: [tutorial, dev]
 
 In this post I will show you how I created my first personal website on GitHub Pages using Jekyll.
 
-## Time for class
+## Time for school
 
 ### What are GitHub Pages?
 [GitHub](https://github.com/) is a Git (a version control system) repository hosting service that provides a Web-based graphical interface.

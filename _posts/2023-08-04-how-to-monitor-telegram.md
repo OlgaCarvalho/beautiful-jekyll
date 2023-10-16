@@ -179,6 +179,6 @@ Insert your phone number (with country indicator) and the code Telegram will sen
 
   
 
-And voilá!
+And voilà!
 
 Happy Hunting 🕵️‍♀️

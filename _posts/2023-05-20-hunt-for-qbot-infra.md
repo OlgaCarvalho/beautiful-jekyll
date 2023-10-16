@@ -15,7 +15,7 @@ These include:
 
   
 
-## Time for class
+## Time for school
 
 ### What is QBot?
 
