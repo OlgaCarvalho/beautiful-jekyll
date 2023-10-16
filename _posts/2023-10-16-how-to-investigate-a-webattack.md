@@ -114,23 +114,25 @@ Taking the log format into account, we want to parse the logs in order to have t
 
 | ip  | clientid | userid | datetime | timezone | request | url | response | size | referrer | useragent |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 127.0.0.1<br> | \-⁠<br> | Olga<br> | 10/Dec/2019 13:55:36<br> | \-0700<br> | GET<br> | /server-status HTTP/1.1"<br> | 200 <br> | 2326 <br> | "[http://localhost/](http://localhost/)"<br> | "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"<br> |
+| 127.0.0.1<br> | \-⁠<br> | Olga<br> | 10/Dec/2019 13:55:36<br> | \-0100<br> | GET<br> | /server-status HTTP/1.1"<br> | 200 <br> | 2326 <br> | "[http://localhost/](http://localhost/)"<br> | "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"<br> |
 
   
 
-Let’s see how we can do this 👇
+Let’s see how we can do this 👇  
 
+Open python console and follow the steps.
   
 
-1\. Read logs into a dataframe
+**1\. Read logs into a dataframe**
 
 ```python
 import pandas as pd
 df = pd.read_csv(r"your-path-to-file\apache access logs.txt", sep='\"', engine='python', header=None, skipinitialspace = True)
+df      # to see what the dataframe contains
 ```
 
 
-2\. Remove leading and trailing whitespaces
+**2\. Remove leading and trailing whitespaces**
 
 ```python
 for column in df:
@@ -139,7 +141,7 @@ for column in df:
 
   
 
-3\. Reformat first column:
+**3\. Reformat first column**
 
 ```python
 # create new dataframe from spliting the original dataframe
@@ -158,7 +160,7 @@ logs['datetime'] = pd.to_datetime(logs['datetime'], format='%d/%b/%Y:%H:%M:%S')
 
   
 
-4\. Reformat request column:
+**4\. Reformat request column**
 
 ```python
 logs[['request', 'url']] = df[1].str.split(' ', n=1, expand=True)
@@ -166,7 +168,7 @@ logs[['request', 'url']] = df[1].str.split(' ', n=1, expand=True)
 
   
 
-5\. Divide http response from size
+**5\. Divide http response from size**
 
 ```python
 logs[['response', 'size']] = df[2].str.split(' ', n=1, expand=True)
@@ -174,7 +176,7 @@ logs[['response', 'size']] = df[2].str.split(' ', n=1, expand=True)
 
   
 
-6\. Add referrer and user-agent columns
+**6\. Add referrer and user-agent columns**
 
 ```python
 logs['referrer'] = df[3]
@@ -183,7 +185,7 @@ logs['useragent'] = df[4]
 
   
 
-7\. Delete original dataframe
+**7\. Delete original dataframe**
 
 ```python
 del df
