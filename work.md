@@ -13,7 +13,18 @@ Here I am documenting my ongoing journey as a:
 
 ## 💼 Professional
 
-- **May 2022 – Present:** Senior Consultant at *Noesis*, working as a Threat Hunter at *NOS*
+- **May 2022 – Present:** Senior Consultant at *Noesis*, working as a Threat Hunter for companies in multiple industries:
+    * Define Threat Hunting activities on Customers' context.
+    * Implementing a Threat Hunting process considering available inputs and outputs.
+    * Threat detection logic according to threat trends and network baselines.
+    * Proactive threat hunting for malicious activity.
+    * Development of customized security alerts leveraging Slack and Python, to monitor Github, Telegram, and other informational sources, for mentions according to keywords.
+    * Threat intelligence awareness, to aid the SOC team in staying up-to-date with the latest cyber security threats and vulnerabilities.
+    * Project management of a Vulnerability Management operation implementation (Tenable), leading a work force of 3 teams (Security, Operations and Network).
+    * *Expertise*:
+      * **Tech stack**: Python3.
+      * **Cyber Tools**: Crowdstrike, DigitalShadows, Mandiant, Trend Micro, Tenable, OpenCTI, TheHive, Darktrace, JoeSandBox, QRadar, Securonix and Microsoft 365 Defender.
+      
 
 - **Aug 2021 – May 2022:** Cyber Security Analyst (SOC) at *AISI*
   * Daily SOC Level 1/2 for 2000+ stations.
@@ -25,15 +36,15 @@ Here I am documenting my ongoing journey as a:
   * Digital forensic investigations of ransomware attacks (Windows environments).
   * Reverse engineering of malicious PowerShell commands and malicious Office files.
   * Identification of threat trends through open and premium sources to propose mitigation measures.
-  * Analysis of current Customers' security level status, presented during regular steering committees with Customer, as well as solutions and best practices.
+  * Analysis of current Customers' security level status, presented during regular steering committees with Customers, as well as solutions and best practices.
   * Technical demonstrations of Proof-of-Concepts (POCs) of exploits to raise SOC team's awareness of attacker techniques.
   * Development of a Python3 tool to parse and apply Sigma Rules to logs recorded in a Sqlite database.
   * Participation on infrastructure technical proposals (Security section).
-  * Onboarding of new elements to the team.
+  * Onboarding of new elements to the team. 
   * *Expertise*:
     * **Platforms Knowledge**:  ELK stack (Elasticsearch, Logstash, and Kibana).
     * **Tech stack**: Python3, SQLite DB.
-    * **Cyber Defense Tools**: SentinelOne, Winlog, O365 Security, Microsoft 365 Defender (MD), Microsoft Defender for Identity (MDI) and OpenCTI.
+    * **Cyber Tools**: SentinelOne, Winlog, O365 Security, Microsoft 365 Defender (MD), Microsoft Defender for Identity (MDI) and OpenCTI.
   
   
 
@@ -88,6 +99,7 @@ You can also see my professional experience on <a href="https://linkedin.com/in/
 * Mentorship program at Portuguese Women in Tech
 
 #### 🚩 Capture-The-Flag exercises (CTFs)
+* Web Attacks, by *Let's Defend*
 * CyberDefenders CyberCorp Case 2, by *CyberDefenders*
 * Malware Traffic Analysis #1, by *CyberDefenders*
 * Natas, by *overthewire*
@@ -95,6 +107,7 @@ You can also see my professional experience on <a href="https://linkedin.com/in/
 * Hackthisite
 
 #### 🎫 Online Courses
+* Fundamentals of Darkweb, by *SOCRadar*
 * Reverse Engineering 101, by *malwareunicorn*
 * Introduction to Networking, by *NYUx*
 * Python3, by *Codeacademy*
