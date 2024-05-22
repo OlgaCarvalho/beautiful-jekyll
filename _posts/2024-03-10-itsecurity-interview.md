@@ -10,7 +10,7 @@ tags: [review]
 Today I was [featured](https://www.itsecurity.pt/edicoes/it-security-n17-abril-2024) in IT Security, a Portuguese security magazine that interviewed me on the topic “Social Engineering”.
 
   
-Here I share my thoughts.
+Here I share my thoughts on it.
 
 
 ### Evolution of Social Engineering Attacks
@@ -80,7 +80,7 @@ Promoting a cybersecurity culture that minimizes the risks of social engineering
 
   
 
-And that’s it. 😊
+And voilá! 😊
 
 This is without a doubt a topic that is widely talked about (maybe the most talked about in cybersecurity?), however, I believe organizations still have ways to go in protecting their users, and consequently, their resources and data, from the real dangers of social engineering.
 
